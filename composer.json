@@ -1,0 +1,31 @@
+{
+    "name": "hybridmind/user_reports_stats",
+    "type": "phpbb-extension",
+    "description": "Check the reports stats by users (deleted and closed)",
+    "homepage": "https://webocean.info/",
+    "version": "1.0.0",
+    "time": "2020-09-03",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "reports",
+        "reports stats"
+    ],
+    "license": "GPL-2.0",
+    "authors": [{
+        "name": "HybridMind",
+        "email": "admin@webocean.info",
+        "homepage": "https://webocean.info/",
+        "role": "Web Developer"
+    }],
+    "require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Report Stats",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.0,<3.3.*@dev"
+        }
+    }
+}

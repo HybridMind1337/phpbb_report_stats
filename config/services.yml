@@ -1,0 +1,11 @@
+services:
+  hybridmind.user_reports_stats.listener:
+    class: hybridmind\user_reports_stats\event\listener
+    arguments:
+      - '@config'
+      - '@template'
+      - '@user'
+      - '@dbal.conn'
+      - '@controller.helper'
+    tags:
+      - name: event.listener
